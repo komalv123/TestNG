@@ -29,7 +29,7 @@ public class MercuryTest {
   @Test
   public void loginwithValidDetails() 
   {
-	  System.out.println("---------hello--------------");
+	  System.out.println("---------welcome--------------");
 	  System.out.println("In loginwithValidDetails method under @Test");
 	  driver.findElement(By.xpath("//input[@name='userName']")).sendKeys("Komal");
 	  driver.findElement(By.xpath("//input[@name='password']")).sendKeys("123456");
